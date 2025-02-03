@@ -1,0 +1,70 @@
+@keyframes right-ear {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes left-ear {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+@keyframes left-eye {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(0.5);
+    background-color: blue;
+  }
+}
+
+@keyframes hair-style {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+@keyframes right-eye {
+  0% {
+    top: 100px;
+    left: 280px;
+  }
+  25% {
+    top: 100px;
+    left: 300px;
+    background-color: aquamarine;
+  }
+  50% {
+    top: 90px;
+    left: 290px;
+  }
+  75% {
+    top: 90px;
+    left: 270px;
+    background-color: blueviolet;
+  }
+  100% {
+    left: 100px;
+    left: 280px;
+  }
+}
+
+@keyframes teeth {
+  0% {
+    top: 250px;
+  }
+  100% {
+    top: 265px;
+  }
+}
