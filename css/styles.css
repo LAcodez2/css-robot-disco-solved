@@ -54,7 +54,7 @@ body {
   position: relative;
   left: 25%;
   top: -345px;
-  animation: left-ear 3s infinite alternate;
+  animation: left-ear 2s infinite alternate;
 }
 
 .robot-ear-right {
@@ -72,6 +72,8 @@ body {
   position: relative;
   left: 50.5rem;
   top: -480px;
+  animation: right-ear 1s ease infinite alternate;
+
 }
 
 .robot-nose {
